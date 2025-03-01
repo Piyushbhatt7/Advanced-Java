@@ -1,0 +1,37 @@
+Threading in Java
+Threading in Java allows a program to run multiple tasks concurrently, 
+improving performance and responsiveness. Java provides built-in support 
+for multithreading through the Thread class and the Runnable interface.
+
+1. What is a Thread?
+
+A thread is the smallest unit of execution in a program. Java programs run on a main thread by default,
+ but you can create additional threads to execute tasks in parallel.
+
+ 2. Creating Threads in Java
+ 
+There are two ways to create a thread in Java:
+
+Method 1: Extending the Thread class
+
+Method 2: Implementing the Runnable Interface
+
+3. Thread Lifecycle
+
+A thread goes through several states:
+
+New - Created but not started.
+Runnable - Ready to run, waiting for CPU.
+Running - Actively executing.
+Blocked/Waiting - Waiting for a resource or signal.
+Terminated - Execution finished.
+
+4. Thread Methods
+
+Method	Description
+start()	Starts a new thread.
+run()	Defines the task for the thread.
+sleep(ms)	Pauses the thread for a given time.
+join()	Waits for a thread to finish before proceeding.
+yield()	Gives control to another thread.
+isAlive()	Checks if a thread is still running.
