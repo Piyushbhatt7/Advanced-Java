@@ -21,7 +21,7 @@ class MyRunnable2 implements Runnable {
         int i = 0;
         while(i < 10)
         {
-            System.out.println("I am a thread not a thread");
+            System.out.println("I am a thread 2");
             i++;
         }
         
