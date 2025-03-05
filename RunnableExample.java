@@ -29,8 +29,7 @@ class MyRunnable2 implements Runnable {
 }
 
 
-public class RunnableExample {
-     
+public class RunnableExample { 
     public static void main(String[] args) {
         MyRunnable r1 = new MyRunnable();
         MyRunnable2 r2 = new MyRunnable2();
