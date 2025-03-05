@@ -9,8 +9,7 @@ class MyRunnable implements Runnable {
             System.out.println("I am a thread not a thread");
             i++;
         }
-        
-        
+               
     }
 }
 
@@ -19,7 +18,13 @@ class MyRunnable2 implements Runnable {
     @Override
     public void run()
     {
-        System.out.println("I am a thread 2");
+        int i = 0;
+        while(i < 10)
+        {
+            System.out.println("I am a thread not a thread");
+            i++;
+        }
+        
     }
 }
 
