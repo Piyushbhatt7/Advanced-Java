@@ -4,7 +4,7 @@ class MyRunnable implements Runnable {
     public void run()
     {
         int i = 0;
-        while(i < 10)
+        while(i <= 20)
         {
             System.out.println("I am a thread not a thread");
             i++;
@@ -19,7 +19,7 @@ class MyRunnable2 implements Runnable {
     public void run()
     {
         int i = 0;
-        while(i < 10)
+        while(i <= 20)
         {
             System.out.println("I am a thread 2");
             i++;
