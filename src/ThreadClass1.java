@@ -7,6 +7,7 @@ class MyThread extends Thread {
         while (i < 20) { 
             System.out.println("MY thread is running...");
             System.out.println("I am happy !");
+            i++;
         }
         
     }
@@ -21,6 +22,7 @@ class MyTHread2 extends Thread {
         while (i < 20) { 
             System.out.println("Thread 2 is running...");
             System.out.println("I am sad !");
+            i++;
         }
     }
 }
