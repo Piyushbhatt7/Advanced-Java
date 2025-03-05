@@ -13,7 +13,8 @@ class MyThread extends Thread {
 }
 
 class MyTHread2 extends Thread {
-
+    
+    @Override
     public void run()
     {
         while (true) { 
