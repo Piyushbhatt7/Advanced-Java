@@ -10,7 +10,7 @@ class MyRunnable2 implements Runnable {
 
     public void run()
     {
-        System.out.println("I am a thread not a thread");
+        System.out.println("I am a thread 2");
     }
 }
 
