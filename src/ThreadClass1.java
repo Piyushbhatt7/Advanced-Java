@@ -30,5 +30,8 @@ public class ThreadClass1 {
         
         MyThread t1 = new MyThread();
         MyTHread2 t2 = new MyTHread2();
+
+        t1.start();
+        t2.start();
     }
 }
