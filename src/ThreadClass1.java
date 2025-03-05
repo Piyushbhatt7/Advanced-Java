@@ -3,8 +3,8 @@ class MyThread extends Thread {
     @Override
     public void run() 
     {
-
-        while (true) { 
+        int i = 0;
+        while (i < 20) { 
             System.out.println("MY thread is running...");
             System.out.println("I am happy !");
         }
