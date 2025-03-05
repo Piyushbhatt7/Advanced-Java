@@ -27,5 +27,7 @@ public class ThreadClass1 {
     
     public static void main(String[] args) {
         
+        MyThread t1 = new MyThread();
+        MyTHread2 t2 = new MyTHread2();
     }
 }
