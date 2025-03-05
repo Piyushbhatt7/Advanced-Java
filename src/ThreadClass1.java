@@ -1,5 +1,9 @@
 class MyThread extends Thread {
-    
+
+    public void run() 
+    {
+
+    }
 }
 
 public class ThreadClass1 {
