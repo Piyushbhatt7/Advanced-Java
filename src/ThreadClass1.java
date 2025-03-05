@@ -13,7 +13,13 @@ class MyThread extends Thread {
 }
 
 class MyTHread2 extends Thread {
-    
+
+    public void run()
+    {
+        while (true) { 
+            
+        }
+    }
 }
 
 public class ThreadClass1 {
