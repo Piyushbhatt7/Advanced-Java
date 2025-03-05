@@ -3,7 +3,8 @@ class MyThread extends Thread {
     @Override
     public void run() 
     {
-
+        System.out.println("MY thread is running...");
+        System.out.println("I am happy !");
     }
 }
 
