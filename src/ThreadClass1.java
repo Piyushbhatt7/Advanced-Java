@@ -17,7 +17,8 @@ class MyTHread2 extends Thread {
     @Override
     public void run()
     {
-        while (true) { 
+        int i = 0;
+        while (i < 20) { 
             System.out.println("Thread 2 is running...");
             System.out.println("I am sad !");
         }
