@@ -1,5 +1,6 @@
 class MyRunnable implements Runnable {
 
+    @Override
     public void run()
     {
         System.out.println("I am a thread not a thread");
@@ -8,6 +9,7 @@ class MyRunnable implements Runnable {
 
 class MyRunnable2 implements Runnable {
 
+    @Override
     public void run()
     {
         System.out.println("I am a thread 2");
