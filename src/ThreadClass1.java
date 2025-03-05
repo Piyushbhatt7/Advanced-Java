@@ -12,6 +12,10 @@ class MyThread extends Thread {
     }
 }
 
+class MyTHread2 extends Thread {
+    
+}
+
 public class ThreadClass1 {
     
     public static void main(String[] args) {
