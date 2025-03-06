@@ -10,9 +10,12 @@ class MyThread extends Thread {
         while(i < 20)
         {
             System.out.println("Thread " + this.getName());
-            
-                Thread.yield();
-            
+            try {
+                Thread.sleep(400);
+            } catch (InterruptedException e) {
+                
+                e.printStackTrace();
+            }
             i++;
         }
     }
