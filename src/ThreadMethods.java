@@ -34,7 +34,7 @@ class MyThread1 extends Thread {
 
 public class ThreadMethods {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
         MyThread t1 = new MyThread("Harry");
         MyThread1 t2 = new MyThread1("null");
