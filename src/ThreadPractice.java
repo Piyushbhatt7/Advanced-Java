@@ -5,7 +5,7 @@ class Practice extends Thread {
         int i = 0;
         while(i < 20)
         {
-            System.out.println("I'am a Thread ");
+            System.out.println("Good Morning");
             i++;
         }
     }
