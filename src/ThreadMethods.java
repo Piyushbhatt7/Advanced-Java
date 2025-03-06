@@ -27,7 +27,12 @@ class MyThread1 extends Thread {
         while(i < 20)
         {
             System.out.println("Thread 1 " + this.getName());
-            Thread.sleep(100);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                
+                e.printStackTrace();
+            }
             i++;
         }
     }
