@@ -17,5 +17,7 @@ public class ThreadConstructor {
     
     public static void main(String[] args) {
         
+        MyThread t1 = new MyThread("Piyush");
+        t1.start();
     }
 }
