@@ -26,7 +26,7 @@ class MyThread1 extends Thread {
         int i = 0;
         while(i < 20)
         {
-            System.out.println("Thread " + this.getName());
+            System.out.println("Thread 1 " + this.getName());
             i++;
         }
     }
@@ -37,6 +37,7 @@ public class ThreadMethods {
     public static void main(String[] args) {
         
         MyThread t1 = new MyThread("Harry");
+        MyThread1 t2 = new MyThread1("null");
         t1.start();
     }
 }
