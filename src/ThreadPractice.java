@@ -1,8 +1,12 @@
 class Practice extends Thread {
 
-    void run()
+    public void run()
     {
-        
+        int i = 0;
+        while(i < 20)
+        {
+            System.out.println("I'am a Thread ");
+        }
     }
 }
 
