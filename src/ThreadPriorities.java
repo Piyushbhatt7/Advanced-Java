@@ -9,7 +9,7 @@ class MyThread extends Thread {
         int i = 0;
         while(i < 30)
         {
-            System.out.println("Thread 1 is running");
+            System.out.println("Thread 1 is running " + getName());
             i++;
         }
     }
