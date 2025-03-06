@@ -3,6 +3,11 @@ class MyThread extends Thread {
     {
         super(name);
     }
+
+    public  void run()
+    {
+        int i = 0;
+    }
 }
 
 
