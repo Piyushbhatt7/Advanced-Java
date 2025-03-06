@@ -10,6 +10,7 @@ class MyThread extends Thread {
         while(i < 30)
         {
             System.out.println("Thread 1 is running");
+            i++;
         }
     }
 }
