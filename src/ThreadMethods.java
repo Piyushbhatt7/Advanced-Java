@@ -3,6 +3,15 @@ class MyThread extends Thread {
     {
         super(name);
     }
+
+    public void run()
+    {
+        int i = 0;
+        while(i < 20)
+        {
+            System.out.println("Thread " + this.getName());
+        }
+    }
 }
 
 
