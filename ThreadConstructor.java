@@ -7,9 +7,11 @@ class MyThread extends Thread{
 
     public void run()
     {
-        while (true) { 
+        int i = 0;
+        while (i < 30) { 
             
             System.out.println("I am a thread");
+            i++;
         }
     }
 }
