@@ -24,7 +24,7 @@ public class ThreadPriorities {
         MyThread t1 = new MyThread("Harry");
         MyThread t2 = new MyThread("Don");
         MyThread t3 = new MyThread("Badmosh");
-        MyThread t4 = new MyThread("Chintu");
+        MyThread t4 = new MyThread("Chintu (most Important)");
         MyThread t5 = new MyThread("Savan");
 
         t1.start();
