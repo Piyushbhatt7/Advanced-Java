@@ -1,3 +1,6 @@
+class MyThread extends Thread {}
+
+
 public class ThreadPriorities {
     
     public static void main(String[] args) {
