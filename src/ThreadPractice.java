@@ -6,6 +6,7 @@ class Practice extends Thread {
         while(i < 20)
         {
             System.out.println("I'am a Thread ");
+            i++;
         }
     }
 }
