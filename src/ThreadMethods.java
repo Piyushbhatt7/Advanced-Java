@@ -10,6 +10,12 @@ class MyThread extends Thread {
         while(i < 20)
         {
             System.out.println("Thread " + this.getName());
+            try {
+                Thread.sleep(400);
+            } catch (InterruptedException e) {
+                
+                e.printStackTrace();
+            }
             i++;
         }
     }
@@ -27,12 +33,7 @@ class MyThread1 extends Thread {
         while(i < 20)
         {
             System.out.println("Thread 1 " + this.getName());
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                
-                e.printStackTrace();
-            }
+           
             i++;
         }
     }
@@ -45,7 +46,7 @@ public class ThreadMethods {
         MyThread t1 = new MyThread("Harry");
         MyThread1 t2 = new MyThread1("null");
         t1.start();
-        t1.join();
+        //t1.join();
         t2.start(); 
     }
 }
