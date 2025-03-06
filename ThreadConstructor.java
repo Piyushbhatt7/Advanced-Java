@@ -4,6 +4,14 @@ class MyThread extends Thread{
     {
         super(name);
     }
+
+    public void run()
+    {
+        while (true) { 
+            
+            System.out.println("I am a thread");
+        }
+    }
 }
 public class ThreadConstructor {
     
