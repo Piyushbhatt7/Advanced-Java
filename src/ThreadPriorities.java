@@ -21,5 +21,9 @@ public class ThreadPriorities {
         
         // Ready Queue : T1 T2 T3 T4 T5
         MyThread t1 = new MyThread("Harry");
+        MyThread t2 = new MyThread("Harry");
+        MyThread t3 = new MyThread("Harry");
+        MyThread t4 = new MyThread("Harry");
+        MyThread t5 = new MyThread("Harry");
     }
 }
