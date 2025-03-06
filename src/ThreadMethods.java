@@ -10,6 +10,7 @@ class MyThread extends Thread {
         while(i < 20)
         {
             System.out.println("Thread " + this.getName());
+            i++;
         }
     }
 }
