@@ -23,6 +23,6 @@ public class ThreadConstructor {
         MyThread t1 = new MyThread("Piyush");
         t1.start();
         System.out.println("Thread t1 id: " + t1.getId());
-        System.out.println("Thread t1 id: " + t1.getId());
+        System.out.println("Thread t1 name: " + t1.getName());
     }
 }
