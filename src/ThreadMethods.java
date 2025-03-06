@@ -15,6 +15,22 @@ class MyThread extends Thread {
     }
 }
 
+class MyThread1 extends Thread {
+    public MyThread1(String name)
+    {
+        super(name);
+    }
+
+    public void run()
+    {
+        int i = 0;
+        while(i < 20)
+        {
+            System.out.println("Thread " + this.getName());
+            i++;
+        }
+    }
+}
 
 public class ThreadMethods {
     
