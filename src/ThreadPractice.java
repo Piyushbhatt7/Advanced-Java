@@ -7,7 +7,7 @@ class Practice extends Thread {
         {
             System.out.println("Good Morning");
             i++;
-        }
+        } 
     }   
 }
 
