@@ -14,7 +14,7 @@ class Practice extends Thread {
 class Practice2 extends Thread {
 
     public void run()
-    {
+    { 
         int i = 0;
         while(i < 20)
         {
