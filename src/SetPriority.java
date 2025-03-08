@@ -44,8 +44,8 @@ public class SetPriority {
         System.out.println(p.getPriority());
         System.out.println(p1.getPriority());
 
-        // p.start();
-        // p1.start();
+        p.start();
+        p1.start();
 
     }
 }

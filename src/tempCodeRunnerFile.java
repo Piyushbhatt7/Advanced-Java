@@ -1,2 +1,2 @@
-p.setPriority(6);
-        // p1.setPriority(9);
+p.start();
+        p1.start();
