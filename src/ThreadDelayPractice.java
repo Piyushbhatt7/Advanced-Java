@@ -35,7 +35,11 @@ class Practice2 extends Thread {
 public class ThreadDelayPractice {
     
     public static void main(String[] args) {
-        
+        Practice p = new Practice();
+        Practice2 p1 = new Practice2();
+
+        Thread t1 = new Thread(p);
+        Thread t2 = new Thread(p1);
 
     }
 }
