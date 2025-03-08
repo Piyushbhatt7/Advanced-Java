@@ -14,6 +14,7 @@ class Practice extends Thread {
 
 class Practice2 extends Thread {
 
+    @Override
     public void run()
     { 
         int i = 0;
