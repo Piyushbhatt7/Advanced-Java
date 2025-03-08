@@ -35,8 +35,9 @@ class Practice2 extends Thread {
 public class SetPriority {
     public static void main(String[] args) {
         Practice p = new Practice();
-        p.setPriority(6);
         Practice2 p1 = new Practice2();
+
+        p.setPriority(6);
         p1.setPriority(9);
         
         p.start();
