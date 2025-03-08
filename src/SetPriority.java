@@ -39,7 +39,10 @@ public class SetPriority {
 
         p.setPriority(6);
         p1.setPriority(9);
-        
+
+        System.out.println(p.getPriority());
+        System.out.println(p1.getPriority());
+
         p.start();
         p1.start();
 
