@@ -1,5 +1,6 @@
 class Practice extends Thread {
 
+    @Override
     public void run()
     { 
         int i = 0;
