@@ -41,5 +41,8 @@ public class ThreadDelayPractice {
         Thread t1 = new Thread(p);
         Thread t2 = new Thread(p1);
 
+        t1.start();
+        t2.start();
+
     }
 }
