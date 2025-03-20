@@ -1,4 +1,4 @@
-package piyush1;
+package piyush1.gym;
 
 public class PiyushAbs {
     
