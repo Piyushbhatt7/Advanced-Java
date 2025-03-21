@@ -1,6 +1,4 @@
 
-import java.io.File;
-import java.io.IOException;
 
 public class FileHandling {
     
@@ -15,8 +13,8 @@ public class FileHandling {
     //     catch (IOException ex) {
     //         System.out.println("Enable to cretye file");
     //     }
-    // }
+     
 
     // code to write to file
-
+    }
 }
