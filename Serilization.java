@@ -35,7 +35,7 @@ public class Serilization {
             Student s1 = new Student("John", 20);
             out.writeObject(s1);
             System.out.println("Serialization done..");
-        }
+        } 
 
         catch(IOException e)
         {
