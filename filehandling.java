@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.Scanner;
 
 public class FileHandling {
     
@@ -31,6 +32,18 @@ public class FileHandling {
         // reading a file
 
         File myFile = new File("file.txt");
+        try {
+            
+            Scanner sc = new Scanner(myFile);
+            while (sc.hasNextLine()) {
+                String line = sc.nextLine();
+                System.out.println(line);
+            }
+        } 
+        catch (Exception e) 
+        {
+
+        }
 
         
     }
