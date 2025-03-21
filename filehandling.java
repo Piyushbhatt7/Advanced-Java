@@ -16,4 +16,7 @@ public class FileHandling {
             System.out.println("Enable to cretye file");
         }
     }
+
+    // code to write to file
+    
 }
