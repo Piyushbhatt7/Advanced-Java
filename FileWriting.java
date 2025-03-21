@@ -10,6 +10,7 @@ public class FileWriting {
             
             FileWriter writer = new FileWriter(obj);
             writer.write("Pussy boy");
+            writer.close();
         } 
         catch (Exception e) {
             System.out.println("An error occured");
