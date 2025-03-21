@@ -39,6 +39,7 @@ public class FileHandling {
                 String line = sc.nextLine();
                 System.out.println(line);
             }
+            sc.close();
         } 
         catch (Exception e) 
         {
