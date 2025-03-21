@@ -1,6 +1,8 @@
 
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.stream.Stream;
@@ -27,9 +29,9 @@ public class Serilization {
     public static void main(String[] args) {
         
         String filename = "student.ser";
-        try(ObjectOutputStream out = new ObjectOutputStream(new FileOOutput))
+        try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename)))
         {
-            Stream((filename));
+            
 
             Student s1 = new Student("John", 10);
             out.writeObject(s1);
@@ -37,6 +39,20 @@ public class Serilization {
         }
 
         catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+
+        // Deserializaion
+
+        try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename)))
+        {
+            Student s2 = (Student) in.readObject();
+            System.out.println("Deserialization done..");
+            s2.display();
+        }
+
+        catch(IOException | ClassNotFoundException e)
         {
             e.printStackTrace();
         }
