@@ -9,7 +9,7 @@ public class FileReading{
         
         File obj = new File("wite.txt");
 
-        try{
+        try{     
             Scanner sc = new Scanner(obj); 
             while(sc.hasNext()) 
             {
