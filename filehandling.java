@@ -5,7 +5,7 @@ public class FileHandling {
     
     public static void main(String[] args) {
         
-        try {
+        
             // code to crete a new file
             
             //     try {
@@ -19,8 +19,14 @@ public class FileHandling {
             
             // code to write to file
 
-            FileWriter myFileWriter = new FileWriter("file.txt")
-                    } catch (IOException ex) {
+            try {
+
+            FileWriter myFileWriter = new FileWriter("file.txt");
+            myFileWriter.write("This is the prcatice to learn file writer");
+            } 
+            catch (IOException ex) {
         }
+
+        
     }
 }
