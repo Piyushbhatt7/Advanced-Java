@@ -36,12 +36,12 @@ public class Serilization {
             out.writeObject(s1);
             System.out.println("Serialization done..");
         } 
-
+ 
         catch(IOException e)
         {
             e.printStackTrace();
         }
-
+ 
         // Deserializaion
 
         try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename)))
