@@ -11,7 +11,7 @@ public class FileReading{
 
         try{
             Scanner sc = new Scanner(obj); 
-            while(sc.hasNext())
+            while(sc.hasNext()) 
             {
                 String line = sc.next();
                 System.out.println(line);
