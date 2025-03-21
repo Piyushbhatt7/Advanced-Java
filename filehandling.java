@@ -22,7 +22,7 @@ public class FileHandling {
             try {
 
             FileWriter myFileWriter = new FileWriter("file.txt");
-            myFileWriter.write("This is the prcatice to learn file writer");
+            myFileWriter.write("This is the prcatice to learn file writer \n OK now bye");
             myFileWriter.close();
             } 
             catch (IOException ex) {
