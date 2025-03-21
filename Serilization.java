@@ -1,5 +1,9 @@
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.util.stream.Stream;
 
 class Student implements Serializable {
 
@@ -18,9 +22,23 @@ class Student implements Serializable {
     }
 }
 
-public class Serilization implements Serializable{
+public class Serilization {
     
     public static void main(String[] args) {
         
+        String filename = "student.ser";
+        try(ObjectOutputStream out = new ObjectOutputStream(new FileOOutput))
+        {
+            Stream((filename));
+
+            Student s1 = new Student("John", 10);
+            out.writeObject(s1);
+            System.out.println("Serialization done..");
+        }
+
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
     }
 }
