@@ -32,7 +32,7 @@ public class Serilization {
         {
             
 
-            Student s1 = new Student("John", 10);
+            Student s1 = new Student("John", 20);
             out.writeObject(s1);
             System.out.println("Serialization done..");
         }
