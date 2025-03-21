@@ -23,6 +23,7 @@ public class FileHandling {
 
             FileWriter myFileWriter = new FileWriter("file.txt");
             myFileWriter.write("This is the prcatice to learn file writer");
+            myFileWriter.close();
             } 
             catch (IOException ex) {
                 ex.printStackTrace();
