@@ -1,5 +1,3 @@
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class FileHandling {
     
@@ -19,15 +17,17 @@ public class FileHandling {
             
             // code to write to file
 
-            try {
+        //     try {
 
-            FileWriter myFileWriter = new FileWriter("file.txt");
-            myFileWriter.write("This is the prcatice to learn file writer \n OK now bye");
-            myFileWriter.close();
-            } 
-            catch (IOException ex) {
-                ex.printStackTrace();
-        }
+        //     FileWriter myFileWriter = new FileWriter("file.txt");
+        //     myFileWriter.write("This is the prcatice to learn file writer \n OK now bye");
+        //     myFileWriter.close();
+        //     } 
+        //     catch (IOException ex) {
+        //         ex.printStackTrace();
+        // }
+
+        // reading a file
 
         
     }
