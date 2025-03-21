@@ -25,6 +25,7 @@ public class FileHandling {
             myFileWriter.write("This is the prcatice to learn file writer");
             } 
             catch (IOException ex) {
+                ex.printStackTrace();
         }
 
         
