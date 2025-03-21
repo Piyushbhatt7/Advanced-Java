@@ -1,3 +1,4 @@
+import java.io.File;
 
 public class FileHandling {
     
@@ -28,6 +29,8 @@ public class FileHandling {
         // }
 
         // reading a file
+
+        File myFile = new File("file.txt");
 
         
     }
