@@ -1,5 +1,4 @@
 import java.io.File;
-import java.util.Scanner;
 
 public class FileHandling {
     
@@ -31,19 +30,30 @@ public class FileHandling {
 
         // reading a file
 
-        File myFile = new File("file.txt");
-        try {
+        // File myFile = new File("file.txt");
+        // try {
             
-            Scanner sc = new Scanner(myFile);
-            while (sc.hasNextLine()) {
-                String line = sc.nextLine();
-                System.out.println(line);
-            }
-            sc.close();
-        } 
-        catch (Exception e) 
+        //     Scanner sc = new Scanner(myFile);
+        //     while (sc.hasNextLine()) {
+        //         String line = sc.nextLine();
+        //         System.out.println(line);
+        //     }
+        //     sc.close();
+        // } 
+        // catch (Exception e) 
+        // {
+        //    System.out.println("Enable to read a file");
+        // }
+
+        // deleteing a file
+
+        File myFile = new File("file.txt");
+        if(myFile.delete())
         {
-           System.out.println("Enable to read a file");
+            System.out.println("Deleted " + myFile.getName());
+        }
+        else{
+            System.out.println("error occur to delete the file");
         }
 
         
