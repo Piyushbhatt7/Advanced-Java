@@ -10,7 +10,7 @@ public class FileReading{
         File obj = new File("wite.txt");
 
         try{      
-            Scanner sc = new Scanner(obj); 
+            Scanner sc = new Scanner(obj);  
             while(sc.hasNext()) 
             {
                 String line = sc.next();
