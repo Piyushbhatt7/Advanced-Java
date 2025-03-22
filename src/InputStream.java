@@ -14,7 +14,7 @@ public class InputStream {
                 System.out.println((char)i);
             } 
 
-        }
+        } 
 
         catch(IOException e)
         {
