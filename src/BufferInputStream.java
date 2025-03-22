@@ -10,7 +10,7 @@ public class BufferInputStream {
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("ex.txt");)
         )
         {
-            int i;
+            int i; 
               
         }
     }
