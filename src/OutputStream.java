@@ -6,6 +6,7 @@ public class OutputStream {
         
         try(FileOutputStream os = new FileOutputStream("ex.txt"))
         {
+            String name = "hello";
             System.out.println();
         }
     }
