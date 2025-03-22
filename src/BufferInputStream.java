@@ -9,5 +9,9 @@ public class BufferInputStream {
         try(BufferInputStream bis = new BufferInputStream(new FileInputStream("ex.txt"));
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("ex.txt");)
         )
+        {
+            int i;
+            
+        }
     }
 }
