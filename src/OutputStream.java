@@ -1,4 +1,5 @@
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class OutputStream {
     
@@ -7,7 +8,12 @@ public class OutputStream {
         try(FileOutputStream os = new FileOutputStream("ex.txt"))
         {
             String name = "hello";
-            System.out.println();
+            os.write(name.getBytes());
+            System.out.println("Successfull");
+        }
+        catch(IOException e)
+        {
+            System.out.println(e);
         }
     }
 }
