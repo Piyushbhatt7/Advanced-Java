@@ -12,7 +12,7 @@ public class InputStream {
             while((i = is.read()) != -1)
             {
                 System.out.println((char)i);
-            }
+            } 
 
         }
 
