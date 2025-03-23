@@ -1,6 +1,6 @@
 class MyThtr extends Thread {
 
-    public MyThr(String name)
+    public MyThtr(String name)
     {
         super(name);
     }
