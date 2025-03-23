@@ -10,7 +10,27 @@ class MyThtrM extends Thread {
         int i = 0;
         while(i < 20)
         {
-            System.out.println(" I am a thread");
+            System.out.println(" I am a thread 1");
+            i++;
+        }
+            
+        
+    }
+}
+
+class MyThtrM1 extends Thread {
+
+    public MyThtrM1(String name)
+    {
+        super(name);
+    }
+
+    public void run()
+    {
+        int i = 0;
+        while(i < 20)
+        {
+            System.out.println(" I am a thread 2");
             i++;
         }
             
@@ -25,8 +45,8 @@ public class ThreadMethodsEx {
         MyThtrM t1 = new MyThtrM("Piyush");
         MyThtrM t2 = new MyThtrM("Sasha");
 
-        System.out.println(t1.getName());
-        System.out.println(t2.getName());
+        // System.out.println(t1.getName());
+        // System.out.println(t2.getName());
 
         t1.start();
         t1.join();
