@@ -20,7 +20,7 @@ class MyThtrM extends Thread {
 
 public class ThreadMethodsEx {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
         MyThtrM t1 = new MyThtrM("Piyush");
         MyThtrM t2 = new MyThtrM("Sasha");
@@ -29,6 +29,7 @@ public class ThreadMethodsEx {
         System.out.println(t2.getName());
 
         t1.start();
+        t1.join();
         t2.start();
     }
 }
