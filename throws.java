@@ -6,9 +6,7 @@ public class Throws {
         int b = 0;
         int result = a/b;
 
-        try{
-            System.out.println("Result" + result);
-        }
-
+          System.out.println("Result" + result);
+         
     }
 }
