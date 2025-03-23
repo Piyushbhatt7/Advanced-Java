@@ -32,6 +32,7 @@ public class SerializableEX {
     try(ObjectOutputStream ob = new ObjectOutputStream(new FileOutputStream(filename)))
     {
         student s1 = new student("Piyush", 20);
+        ob.writeObject(s1);
     }
     
 }
