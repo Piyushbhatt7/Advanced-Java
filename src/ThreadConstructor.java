@@ -2,7 +2,7 @@ class MyThtr extends Thread {
 
     public MyThr(String name)
     {
-        
+        super(name);
     }
 }
 
