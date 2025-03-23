@@ -43,13 +43,14 @@ public class ThreadMethodsEx {
     public static void main(String[] args) throws InterruptedException {
         
         MyThtrM t1 = new MyThtrM("Piyush");
-        MyThtrM t2 = new MyThtrM("Sasha");
+        MyThtrM1 t2 = new MyThtrM1("Sasha");
 
         // System.out.println(t1.getName());
         // System.out.println(t2.getName());
 
         t1.start();
-        t1.join();
+        // t1.join();
+        //t2.sleep(5000);
         t2.start();
     }
 }
