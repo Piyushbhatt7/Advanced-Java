@@ -21,9 +21,9 @@ public class ThreadPrioritiesEx {
         MyThtr t2 = new MyThtr("Subham");
         MyThtr t3 = new MyThtr("Kunal");
 
-        t3.setPriority(10);
-        t2.setPriority(1);
-        t1.setPriority(5);
+        t3.setPriority(Thread.MAX_PRIORITY);
+        t2.setPriority(Thread.MIN_PRIORITY);
+        t1.setPriority(Thread.MIN_PRIORITY);
 
         t1.start();
         t2.start();
