@@ -25,8 +25,11 @@ public class SerializableEX {
     
     String filename = "my.txt";
 
-    try(ObjectOutputStream ob = new ObjectOutputStream(FileOutputStream(filename)))
+    try(ObjectOutputStream ob = new ObjectOutputStream(new FileOutputStream(filename)))
+    {
+        student s1 = new student("Piyush", 20);
+    }
     
-    student s1 = new student("Piyush", 20);
+    
 
 }
