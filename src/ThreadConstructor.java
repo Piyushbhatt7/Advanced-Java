@@ -4,6 +4,16 @@ class MyThtr extends Thread {
     {
         super(name);
     }
+
+    public void run()
+    {
+        int i = 0;
+        while(i <=20)
+        {
+            System.out.println("I am a thread");
+        }
+        i++;
+    }
 }
 
 public class ThreadConstructor {
