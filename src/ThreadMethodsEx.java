@@ -7,8 +7,12 @@ class MyThtrM extends Thread {
 
     public void run()
     {
-        
-            System.out.println("I am a thread");
+        int i = 0;
+        while(i < 20)
+        {
+            System.out.println(i + " I am a thread");
+        }
+            i++;
         
     }
 }
