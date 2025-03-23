@@ -19,5 +19,10 @@ public class ThreadPrioritiesEx {
         
         MyThtr t1 = new MyThtr("Aman");
         MyThtr t2 = new MyThtr("Subham");
+        MyThtr t3 = new MyThtr("Kunal");
+
+        t1.start();
+        t2.start();
+        t3.start();
     }
 }
