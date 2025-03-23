@@ -1,4 +1,6 @@
 
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 
@@ -21,4 +23,10 @@ class student implements Serializable
 
 public class SerializableEX {
     
+    String filename = "my.txt";
+
+    try(ObjectOutputStream ob = new ObjectOutputStream(FileOutputStream(filename)))
+    
+    student s1 = new student("Piyush", 20);
+
 }
