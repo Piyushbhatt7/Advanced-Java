@@ -10,9 +10,10 @@ class MyThtrM extends Thread {
         int i = 0;
         while(i < 20)
         {
-            System.out.println(i + " I am a thread");
-        }
+            System.out.println(" I am a thread");
             i++;
+        }
+            
         
     }
 }
