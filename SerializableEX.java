@@ -22,14 +22,18 @@ class student implements Serializable
 }
 
 public class SerializableEX {
+
+    public static void main(String[] args) {
+        
     
-    String filename = "my.txt";
+    
+    String filename = "my.ser";
 
     try(ObjectOutputStream ob = new ObjectOutputStream(new FileOutputStream(filename)))
     {
         student s1 = new student("Piyush", 20);
     }
     
-    
+}
 
 }
