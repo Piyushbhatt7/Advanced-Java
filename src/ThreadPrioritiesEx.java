@@ -8,7 +8,7 @@ class MyThtr extends Thread {
     public void run()
     {
         
-            System.out.println("I am a thread");
+            System.out.println("I am a thread " + getName());
         
     }
 }
