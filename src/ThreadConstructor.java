@@ -20,5 +20,7 @@ public class ThreadConstructor {
     
     public static void main(String[] args) {
         
+        MyThtr t1 = new MyThtr("Piyush");
+        t1.start();
     }
 }
