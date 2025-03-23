@@ -25,6 +25,9 @@ public class ThreadMethodsEx {
         MyThtrM t1 = new MyThtrM("Piyush");
         MyThtrM t2 = new MyThtrM("Sasha");
 
+        System.out.println(t1.getName());
+        System.out.println(t2.getName());
+
         t1.start();
         t2.start();
     }
