@@ -7,12 +7,9 @@ class MyThtr extends Thread {
 
     public void run()
     {
-        int i = 0;
-        while(i <=20)
-        {
+        
             System.out.println("I am a thread");
-        }
-        i++;
+        
     }
 }
 
@@ -22,5 +19,8 @@ public class ThreadConstructor {
         
         MyThtr t1 = new MyThtr("Piyush");
         t1.start();
+        System.out.println(t1.getId());
+        System.out.println(t1.getName());
+        System.out.println(t1.getPriority());
     }
 }
