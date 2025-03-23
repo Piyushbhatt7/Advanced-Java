@@ -12,6 +12,11 @@ class student implements Serializable
         this.name = name;
         this.age = age;
     }
+
+    public void display()
+    {
+        System.out.println("Name: " + name + "Age: " + age);
+    }
 }
 
 public class SerializableEX {
