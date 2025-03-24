@@ -2,7 +2,7 @@ class item {
     int i;
     boolean produced = false;
 
-    public void synchronized producer(int i)
+    public void synchronized producer(int x)
     {
         if(produced)
         {
@@ -14,15 +14,25 @@ class item {
               System.out.println(e);
             }
         }
+
+        i = x;
+    produced = true;
+    notify();
     }
 
     public void synchronized consume()
     {
         if(!produced)
         {
-            wait();
+           try {
+                wait();
+           } catch (Exception e) {
+            System.out.println(e);
+           }
         }
+        
     }
+    
 }
 
 
