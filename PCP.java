@@ -40,5 +40,27 @@ class item {
 
 public class PCP {
     
-
+    public static void main(String[] args) {
+        
+        item i = new item();
+        
+        Thread t1 = new Thread(() -> {
+            for(int j = 0; j < 10; j++)
+            {
+                i.producer(j);
+                System.out.println("Produced: " + j);
+            }
+        });
+        
+        Thread t2 = new Thread(() -> {
+            for(int j = 0; j < 10; j++)
+            {
+                i.consume();
+                System.out.println("Consumed: " + j);
+            }
+        });
+        
+        t1.start();
+        t2.start();
+    }
 }
