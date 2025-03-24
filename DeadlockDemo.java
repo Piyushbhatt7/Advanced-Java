@@ -33,6 +33,9 @@ public class DeadlockDemo {
                 System.out.println("Thread 2 Aquired lock2");
             }
         });
+
+        t1.start();
+        t2.start();
         
     }
 }
