@@ -1,4 +1,4 @@
-class DeadLockDemo {
+class DeadLock {
     private static final Object lock1 = new Object();
     private static final Object lock2 = new Object();
 
