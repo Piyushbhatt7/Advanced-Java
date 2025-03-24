@@ -11,8 +11,16 @@ class item {
             }
             catch(Exception e)
             {
-
+              System.out.println(e);
             }
+        }
+    }
+
+    public void synchronized consume()
+    {
+        if(!produced)
+        {
+            wait();
         }
     }
 }
