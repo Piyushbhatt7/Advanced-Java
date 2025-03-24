@@ -58,7 +58,7 @@ public class PCP {
                 i.consume();
                 System.out.println("Consumed: " + j);
             }
-        });
+        }); 
         
         t1.start();
         t2.start();
