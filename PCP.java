@@ -20,7 +20,7 @@ class item {
     notify();
     }
 
-    public void synchronized consume()
+    public synchronized void consume()
     {
         if(!produced)
         {
