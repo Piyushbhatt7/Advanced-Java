@@ -11,6 +11,13 @@ public class DeadlockDemo {
             {
                 System.out.println("Thread1 Holding lock1");
             }
+            try{Thread.sleep(100);}
+            catch(InterruptedException e){}
+            System.out.println("Thread 1 waiting for lock2");
+            synchronized (lock2)
+            {
+                System.out.println("Thread 1 Aquired lock2");
+            }
         });
     }
 }
