@@ -50,7 +50,7 @@ public class PCP {
                 i.producer(j);
                 System.out.println("Produced: " + j);
             }
-        });
+        }); 
         
         Thread t2 = new Thread(() -> {
             for(int j = 0; j < 10; j++)
