@@ -2,7 +2,7 @@ class item {
     int i;
     boolean produced = false;
 
-    public void synchronized producer(int x)
+    public synchronized void producer(int x)
     {
         if(produced)
         {
