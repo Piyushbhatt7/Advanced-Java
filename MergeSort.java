@@ -59,3 +59,6 @@ public class MergeSort {
         System.out.println();
     }
 }
+
+// Time complexity of this code is :- 
+// O(nlogn)
