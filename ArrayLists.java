@@ -25,5 +25,11 @@ public class ArrayLists {
         
         list.add(1, 8);
         System.out.println(list);
+
+        // set element // replace the existed element
+
+        list.set(1, 5);
+        System.out.println(list);
+
     }
 }
