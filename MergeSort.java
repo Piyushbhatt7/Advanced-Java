@@ -28,12 +28,9 @@ public class MergeSort {
             merged[x++] = arr[index2++];
         }
 
-        for(int i = 0; i< merged.length; i++, j++)
+        for(int i = 0, j=si; i<merged.length; i++, j++)
         {
-            if(si >= ei)
-            {
-                return;
-            }
+            arr[j] = merged[i];
         }
     }
    public static void divide(int arr[], int si, int ei)
