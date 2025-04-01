@@ -2,7 +2,7 @@ public class MergeSort {
     
     public static void conquer(int arr[], int mid, int si, int ei)
     {
-        
+        int merger[] = new int[ei - si + 1];
     }
    public static void divide(int arr[], int si, int ei)
    {
