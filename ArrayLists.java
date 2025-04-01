@@ -36,6 +36,10 @@ public class ArrayLists {
         list.remove(1);
         System.out.println(list); // need to pass the arry index
 
+        // size
+        int size = list.size();
+        System.out.println(size); // return the size of arry
+
 
     }
 }
