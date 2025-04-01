@@ -27,6 +27,14 @@ public class MergeSort {
         {
             merged[x++] = arr[index2++];
         }
+
+        for(int i = 0; i< merged.length; i++, j++)
+        {
+            if(si >= ei)
+            {
+                return;
+            }
+        }
     }
    public static void divide(int arr[], int si, int ei)
    {
