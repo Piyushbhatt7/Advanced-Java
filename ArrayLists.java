@@ -31,5 +31,11 @@ public class ArrayLists {
         list.set(1, 5);
         System.out.println(list);
 
+        // delete element
+
+        list.remove(1);
+        System.out.println(list); // need to pass the arry index
+
+
     }
 }
