@@ -3,6 +3,8 @@ public class MergeSort {
    public static void divide(int arr[], int si, int ei)
    {
      int mid = si + (ei - si) / 2;
+     divide(arr, si, ei);
+     divide(arr, mid + 1, ei);
    }
 
     public static void main(String args[])
