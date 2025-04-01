@@ -1,5 +1,9 @@
 public class MergeSort {
     
+    public static void conquer(int arr[], int mid, int si, int ei)
+    {
+        
+    }
    public static void divide(int arr[], int si, int ei)
    {
 
