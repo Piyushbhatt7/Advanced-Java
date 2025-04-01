@@ -49,5 +49,7 @@ public class MergeSort {
     {
         int arr[] = {6,2,9,5,2,8};
         int n = arr.length;
+
+        divide(arr, 0, n-1);
     }
 }
