@@ -6,6 +6,14 @@ public class MergeSort {
 
         int index1 = si;
         int index2 = mid + 1;
+
+        int x = 0;
+        while (index1 <= mid && index2 <= ei) {
+            if(arr[index1] <= arr[index2])
+            {
+                merged[x++] = arr[index1++];
+            }
+        }
     }
    public static void divide(int arr[], int si, int ei)
    {
