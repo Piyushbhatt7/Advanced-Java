@@ -17,6 +17,12 @@ public class MergeSort {
                 merged[x++] = arr[index2++];
             }
         }
+
+        while(index1 <= mid)
+        {
+            merged[x++] = arr[index1++];
+        }
+        
     }
    public static void divide(int arr[], int si, int ei)
    {
