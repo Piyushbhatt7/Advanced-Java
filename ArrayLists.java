@@ -20,5 +20,10 @@ public class ArrayLists {
         // get
         int element = list.get(2);
         System.out.println(element);
+
+        // add element in between
+        
+        list.add(1, 8);
+        System.out.println(list);
     }
 }
