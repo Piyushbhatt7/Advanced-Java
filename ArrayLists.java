@@ -6,5 +6,7 @@ public class ArrayLists {
 
        //  Integer | Float | Boolean class
         ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<String> list1 = new ArrayList<String>();
+        ArrayList<Boolean> list2 = new ArrayList<Boolean>();
     }
 }
