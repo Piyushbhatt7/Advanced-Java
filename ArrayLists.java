@@ -46,7 +46,9 @@ public class ArrayLists {
         {
             System.out.println(list.get(i));
         }
- // 13:55 array list
+ 
+
+ // sorting 
 
     }
 }
