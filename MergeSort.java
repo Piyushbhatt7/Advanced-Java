@@ -44,7 +44,7 @@ public class MergeSort {
      divide(arr, si, mid);
      divide(arr, mid + 1, ei);            
      conquer(arr, si, mid, ei);     
-   }
+   } 
   
     public static void main(String args[])
     {
