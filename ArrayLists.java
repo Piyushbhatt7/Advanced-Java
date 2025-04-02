@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class ArrayLists {
@@ -52,6 +51,7 @@ public class ArrayLists {
 
     // sorting
     Collections.sort(list); 
+    System.out.println(list);
 
     }
 }
