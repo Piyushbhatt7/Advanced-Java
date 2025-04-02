@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class ArrayLists {
     
@@ -48,7 +49,8 @@ public class ArrayLists {
         }
  
 
- // sorting 
+    // sorting
+    Collections.sort(list); 
 
     }
 }
