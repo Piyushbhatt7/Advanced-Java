@@ -53,7 +53,7 @@ public class ArrayLists {
  
 
     // sorting
-    Collections.sort(list); 
+    Collections.sort(list);  
     System.out.println(list);
 
     }
