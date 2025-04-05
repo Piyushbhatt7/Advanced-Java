@@ -15,5 +15,7 @@ public class Linked_List {
         list.addFirst("this");
         list.add("linked list"); // no need to specify the addLast because it automatically store in last
         System.out.println(list);
+
+        System.out.println(list.size());
     }
 }
