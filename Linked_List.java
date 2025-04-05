@@ -24,5 +24,7 @@ public class Linked_List {
 
         }
         System.out.print("null");
+
+        list.removeFirst(list)
     }
 }
