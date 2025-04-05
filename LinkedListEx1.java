@@ -50,6 +50,18 @@ public class LinkedListEx1 {
         currNode.next = newNode;
     }
 
+    // print
+
+    public void printList()
+    {
+        Node currNode = head;
+        while(currNode.next != null)
+        {
+            System.out.println(currNode.data + " -> ");
+            currNode = currNode.next;
+        }
+    }
+
     
     public static void main(String[] args) {
         
