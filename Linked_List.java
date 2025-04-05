@@ -29,6 +29,6 @@ public class Linked_List {
         System.out.println(list);
 
         list.removeLast();
-        
+        System.out.println(list);
     }
 }
