@@ -24,6 +24,10 @@ public class LinkedListEx1 {
            head = newNode;
            return;
         }
+
+        newNode.next = head;
+        head = newNode;
+        
     }
     
     public static void main(String[] args) {
