@@ -1,5 +1,12 @@
 public class LinkedListEx2 {
     Node head;
+    private int size;
+
+    public LinkedListEx2() {
+        this.size = 0;
+    }
+
+    
 
     class Node {
 
@@ -10,6 +17,7 @@ public class LinkedListEx2 {
         {
             this.data = data;
             this.next = null;
+            size++;
         }
     }
 
@@ -75,6 +83,7 @@ public class LinkedListEx2 {
             System.out.println("The list is empty");
             return;
         }
+        size--;
 
         head = head.next;
     }
@@ -82,6 +91,7 @@ public class LinkedListEx2 {
     // delete last
     public void deleteLast()
     {
+        size--;
         if(head == null)
         {
             System.out.println("The list is empty");
