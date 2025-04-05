@@ -32,9 +32,14 @@ public class LinkedListEx1 {
 
     // add-last
 
-    public void addLast(Strig last)
+    public void addLast(String last)
     {
-        
+        Node newNode = new Node(data);
+        if(head == null)
+        {
+           head = newNode;
+           return;
+        }
     }
 
     
