@@ -36,8 +36,8 @@ public class LinkedListEx1 {
     public static void main(String[] args) {
         
         LinkedListEx1 list = new LinkedListEx1();
+        list.addFirst("a");
+        list.addFirst("is");
         
-        
-
     }
 }
