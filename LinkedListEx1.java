@@ -46,6 +46,8 @@ public class LinkedListEx1 {
         {
             currNode = currNode.next;
         }
+
+        currNode.next = newNode;
     }
 
     
