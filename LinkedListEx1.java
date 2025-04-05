@@ -76,6 +76,9 @@ public class LinkedListEx1 {
         list.addFirst("a");
         list.addFirst("is");
         list.printList();
+
+        list.addLast("linked list");
+        list.printList();
         
     }
 }
