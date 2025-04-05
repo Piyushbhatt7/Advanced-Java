@@ -80,6 +80,14 @@ public class LinkedListEx2 {
     }
 
     // delete last
+    public void deleteLast()
+    {
+        if(head == null)
+        {
+            System.out.println("The list is empty");
+            return;
+        }
+    }
 
     
     public static void main(String[] args) {
