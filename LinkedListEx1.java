@@ -42,6 +42,10 @@ public class LinkedListEx1 {
         }
 
         Node currNode = head;
+        while(currNode.next != null)
+        {
+            currNode = currNode.next;
+        }
     }
 
     
