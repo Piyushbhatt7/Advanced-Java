@@ -14,6 +14,8 @@ public class LinkedListEx1 {
     
     public static void main(String[] args) {
         
+        LinkedListEx1 ll = new LinkedListEx1();
+        
 
     }
 }
