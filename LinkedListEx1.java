@@ -37,6 +37,7 @@ public class LinkedListEx1 {
         
         LinkedListEx1 list = new LinkedListEx1();
         
+        
 
     }
 }
