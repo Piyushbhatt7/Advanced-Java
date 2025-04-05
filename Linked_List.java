@@ -1,5 +1,5 @@
 
-import java.util.LinkedList;
+import java.util.LinkedList;  // collection framework
 
 public class Linked_List {
     
@@ -13,7 +13,7 @@ public class Linked_List {
         System.out.println(list);
 
         list.addFirst("this");
-        list.addLast("linked list");
+        list.add("linked list"); // no need to specify the addLast because it automatically store in last
         System.out.println(list);
     }
 }
