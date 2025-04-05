@@ -27,5 +27,8 @@ public class Linked_List {
 
         list.removeFirst();
         System.out.println(list);
+
+        list.removeLast();
+        
     }
 }
