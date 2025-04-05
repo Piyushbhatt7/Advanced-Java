@@ -31,7 +31,8 @@ public class Linked_List {
         // list.removeLast();
         // System.out.println(list);
 
-        list.remove();
+        list.remove(2);
+        System.out.println(list);
 
 
     }
