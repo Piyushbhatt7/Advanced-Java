@@ -91,7 +91,10 @@ public class LinkedListEx2 {
         Node secondLast = head;
         Node lastNode = head.next;
 
-        
+        while(lastNode.next != null)
+        {
+            lastNode = lastNode.next;
+        }
     }
 
     
