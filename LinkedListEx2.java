@@ -87,7 +87,11 @@ public class LinkedListEx2 {
             System.out.println("The list is empty");
             return;
         }
-        head = head.next;
+       
+        Node secondLast = head;
+        Node lastNode = head.next;
+
+        
     }
 
     
