@@ -75,6 +75,8 @@ public class LinkedListEx2 {
             System.out.println("The list is empty");
             return;
         }
+
+        head = head.next;
     }
 
     
