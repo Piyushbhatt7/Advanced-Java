@@ -115,6 +115,11 @@ public class LinkedListEx2 {
         secondLast.next = null;
     }
 
+    public int getSize()
+    {
+        return size;
+    }
+
     
     public static void main(String[] args) {
         
@@ -136,6 +141,9 @@ public class LinkedListEx2 {
 
         list.deleteLast();
         list.printList();
+
+        System.out.println(list.getSize());
+
         
     }
 }
