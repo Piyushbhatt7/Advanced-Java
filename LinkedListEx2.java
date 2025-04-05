@@ -68,7 +68,7 @@ public class LinkedListEx2 {
     }
 
     // delete first
-    public void deleteFist()
+    public void deleteFirst()
     {
         if(head == null)
         {
@@ -108,15 +108,23 @@ public class LinkedListEx2 {
     
     public static void main(String[] args) {
         
-        LinkedListEx1 list = new LinkedListEx1();
+        LinkedListEx2 list = new LinkedListEx2();
         list.addFirst("a");
         list.addFirst("is");
         list.printList();
 
         list.addLast("linked list");
         list.printList();
-
+      
         list.addFirst("this");
+        list.printList();
+
+        System.out.println("deleted list");
+
+        list.deleteFirst();
+        list.printList();
+
+        list.deleteLast();
         list.printList();
         
     }
