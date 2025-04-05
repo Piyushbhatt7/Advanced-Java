@@ -79,6 +79,8 @@ public class LinkedListEx2 {
         head = head.next;
     }
 
+    // delete last
+
     
     public static void main(String[] args) {
         
