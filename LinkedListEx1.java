@@ -11,6 +11,12 @@ public class LinkedListEx1 {
             this.next = null;
         }
     }
+
+    // add - first, add- last
+    public void addFirst(String data)
+    {
+        
+    }
     
     public static void main(String[] args) {
         
