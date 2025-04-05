@@ -23,7 +23,7 @@ public class Linked_List {
             System.out.print(list.get(i) + " -> ");
 
         }
-        System.out.print("null");
+        System.out.println("null");
 
         list.removeFirst();
         System.out.println(list);
