@@ -1,6 +1,4 @@
 
-import java.lang.classfile.components.ClassPrinter;
-
 public class LinkedListEx1 {
 
     Node head;
@@ -62,7 +60,7 @@ public class LinkedListEx1 {
             return;
         }
         Node currNode = head;
-        while(currNode.next != null)
+        while(currNode != null)
         {
             System.out.println(currNode.data + " -> ");
             currNode = currNode.next;
