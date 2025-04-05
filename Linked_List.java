@@ -9,5 +9,11 @@ public class Linked_List {
 
         list.addFirst("a");
         list.addFirst("is");
+
+        System.out.println(list);
+
+        list.addFirst("this");
+        list.addLast("linked list");
+        System.out.println(list);
     }
 }
