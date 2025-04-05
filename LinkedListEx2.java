@@ -89,9 +89,15 @@ public class LinkedListEx2 {
         }
        
         Node secondLast = head;
-        Node lastNode = head.next;
+        Node lastNode = head.next; // head.next = null -> lastNode = null;
 
-        while(lastNode.next != null)
+        if(head.next == null)
+        {
+            head = null;
+            return;
+        }
+
+        while(lastNode.next != null) // null.next -> error
         {
             lastNode = lastNode.next;
             secondLast = secondLast.next;
