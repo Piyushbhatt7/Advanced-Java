@@ -60,6 +60,8 @@ public class LinkedListEx1 {
             System.out.println(currNode.data + " -> ");
             currNode = currNode.next;
         }
+        
+        currNode.next = null;
     }
 
     
