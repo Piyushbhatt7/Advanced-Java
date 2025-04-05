@@ -67,6 +67,16 @@ public class LinkedListEx2 {
         System.out.println("Null");
     }
 
+    // delete first
+    public void deleteFist()
+    {
+        if(head == null)
+        {
+            System.out.println("The list is empty");
+            return;
+        }
+    }
+
     
     public static void main(String[] args) {
         
