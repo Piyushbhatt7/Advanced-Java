@@ -62,7 +62,7 @@ public class LinkedListEx1 {
         Node currNode = head;
         while(currNode != null)
         {
-            System.out.println(currNode.data + " -> ");
+            System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
         
