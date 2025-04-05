@@ -40,6 +40,8 @@ public class LinkedListEx1 {
            head = newNode;
            return;
         }
+
+        Node currNode = head;
     }
 
     
