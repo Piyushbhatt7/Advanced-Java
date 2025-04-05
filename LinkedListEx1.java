@@ -54,6 +54,11 @@ public class LinkedListEx1 {
 
     public void printList()
     {
+        if(head == null)
+        {
+            System.out.println("List is empty");
+            return;
+        }
         Node currNode = head;
         while(currNode.next != null)
         {
@@ -61,7 +66,7 @@ public class LinkedListEx1 {
             currNode = currNode.next;
         }
         
-        currNode.next = null;
+        System.out.println("Null");
     }
 
     
