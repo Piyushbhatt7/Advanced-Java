@@ -102,6 +102,7 @@ public class LinkedListEx2 {
             lastNode = lastNode.next;
             secondLast = secondLast.next;
         }
+        secondLast.next = null;
     }
 
     
