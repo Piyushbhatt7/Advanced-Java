@@ -32,6 +32,11 @@ public class LinkedListEx1 {
 
     // add-last
 
+    public void addLast(Strig last)
+    {
+        
+    }
+
     
     public static void main(String[] args) {
         
