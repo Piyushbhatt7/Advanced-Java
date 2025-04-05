@@ -25,10 +25,12 @@ public class Linked_List {
         }
         System.out.println("null");
 
-        list.removeFirst();
-        System.out.println(list);
+        // list.removeFirst();
+        // System.out.println(list);        
 
-        list.removeLast();
-        System.out.println(list);
+        // list.removeLast();
+        // System.out.println(list);
+
+
     }
 }
