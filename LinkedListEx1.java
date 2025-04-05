@@ -3,6 +3,8 @@ import java.lang.classfile.components.ClassPrinter;
 
 public class LinkedListEx1 {
 
+    Node head;
+
     class Node {
 
         String data;
@@ -32,7 +34,7 @@ public class LinkedListEx1 {
 
     // add-last
 
-    public void addLast(String last)
+    public void addLast(String data)
     {
         Node newNode = new Node(data);
         if(head == null)
@@ -75,6 +77,7 @@ public class LinkedListEx1 {
         LinkedListEx1 list = new LinkedListEx1();
         list.addFirst("a");
         list.addFirst("is");
+        list.printList();
         
     }
 }
