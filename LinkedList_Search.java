@@ -14,6 +14,6 @@ public class LinkedList_Search {
         list.add(2);
         list.add(3);
 
-        System.out.println(list);
+        System.out.println(list.get(2));
     }
 }
