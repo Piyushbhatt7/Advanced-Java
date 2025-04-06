@@ -13,5 +13,7 @@ public class LinkedList_Search {
         list.add(8);
         list.add(2);
         list.add(3);
+
+        System.out.println(list);
     }
 }
