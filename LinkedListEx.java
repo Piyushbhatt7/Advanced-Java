@@ -28,6 +28,8 @@ public class LinkedListEx {
             list.add(num);
         }
 
+        list.removeIf(n -> n > 25);
+
         System.out.println("Final list (values < 25): ");
         for(int value : list)
         {
