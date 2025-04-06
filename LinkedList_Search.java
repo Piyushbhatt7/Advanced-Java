@@ -15,7 +15,7 @@ public class LinkedList_Search {
         list.add(3);
 
         int index = list.indexOf(7);
-        System.out.println(index);
+        System.out.println(list.get(2));
         
         if(index != -1)
         {
