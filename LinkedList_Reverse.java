@@ -71,7 +71,12 @@ public class LinkedList_Reverse {
     public void reverseIterate()
     {
         Node prevNode = head;
-        
+        Node currNode = head.next;
+
+        while()
+        {
+            
+        }
     }
  
     
