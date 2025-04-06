@@ -14,6 +14,15 @@ public class LinkedList_Search {
         list.add(2);
         list.add(3);
 
-        System.out.println(list.get(2));
+        int index = list.indexOf(7);
+        
+        if(index != -1)
+        {
+            System.out.println("Element found at index: " + index);
+        }
+        else
+        {
+            System.out.println("Element is not in the list");
+        }
     }
 }
