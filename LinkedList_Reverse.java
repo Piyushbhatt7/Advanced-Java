@@ -70,6 +70,7 @@ public class LinkedList_Reverse {
 
     public void reverseIterate()
     {
+        Node prevNode = head;
         
     }
  
@@ -77,14 +78,14 @@ public class LinkedList_Reverse {
     public static void main(String[] args) {
         
         LinkedListEx1 list = new LinkedListEx1();
-        list.addFirst("a");
-        list.addFirst("is");
-        list.printList();
+        list.addFirst("1");
+        list.addFirst("2");
+        
 
-        list.addLast("linked list");
-        list.printList();
+        list.addLast("3");
+        
 
-        list.addFirst("this");
+        list.addFirst("4");
         list.printList();
         
     }
