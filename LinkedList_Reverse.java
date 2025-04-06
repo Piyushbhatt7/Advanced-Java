@@ -105,6 +105,8 @@ public class LinkedList_Reverse {
         
 
         list.addFirst("4");
+
+        list.reverseIterate();
         list.printList();
         
     }
