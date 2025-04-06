@@ -79,6 +79,10 @@ public class LinkedList_Reverse {
         {
            Node nextNode = currNode.next;
            currNode.next = prevNode;
+
+           // update
+           prevNode = currNode;
+           currNode = nextNode;
         }
     }
  
