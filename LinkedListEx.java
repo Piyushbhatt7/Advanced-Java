@@ -33,7 +33,7 @@ public class LinkedListEx {
         System.out.println("Final list (values < 25): ");
         for(int value : list)
         {
-            System.out.println(value + " ");
+            System.out.print(value + " ");
         }
         
         sc.close();
