@@ -73,9 +73,9 @@ public class LinkedList_Reverse {
         Node prevNode = head;
         Node currNode = head.next;
 
-        while()
+        while(currNode != null)
         {
-            
+
         }
     }
  
