@@ -11,7 +11,15 @@ public class LinkedListEx {
         Scanner sc = new Scanner(System.in);
         int num;
         
-        
+        while (true) { 
+            
+            num = sc.nextInt();
+
+            if(num == 0)
+            {
+                break;
+            }
+        }
 
 
        
