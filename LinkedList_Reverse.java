@@ -1,5 +1,4 @@
 
-import java.util.Currency;
 
 public class LinkedList_Reverse {
     
@@ -78,8 +77,8 @@ public class LinkedList_Reverse {
 
         while(currNode != null)
         {
-           Node nextNode = Currency.next;
-           
+           Node nextNode = currNode.next;
+           currNode.next = prevNode;
         }
     }
  
