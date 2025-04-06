@@ -68,6 +68,11 @@ public class LinkedList_Reverse {
         System.out.println("Null");
     }
 
+    public void reverseIterate()
+    {
+        
+    }
+ 
     
     public static void main(String[] args) {
         
