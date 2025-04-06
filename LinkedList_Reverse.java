@@ -96,7 +96,7 @@ public class LinkedList_Reverse {
     
     public static void main(String[] args) {
         
-        LinkedListEx1 list = new LinkedListEx1();
+        LinkedList_Reverse list = new LinkedList_Reverse();
         list.addFirst(1);
         list.addFirst(2);
         list.addLast(3);
