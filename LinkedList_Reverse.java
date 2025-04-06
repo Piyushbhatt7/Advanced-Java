@@ -102,7 +102,7 @@ public class LinkedList_Reverse {
         list.addLast(3);
         list.addLast(4);
 
-        
+        list.reverseIterate();
         list.printList();
         
     }
