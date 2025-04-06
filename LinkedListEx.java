@@ -28,9 +28,12 @@ public class LinkedListEx {
             list.add(num);
         }
 
-
-       
+        System.out.println("Final list (values < 25): ");
+        for(int value : list)
+        {
+            System.out.println(value + " ");
+        }
         
-
+        sc.close();
     }
 }
