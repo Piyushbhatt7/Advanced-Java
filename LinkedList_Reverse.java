@@ -6,10 +6,10 @@ public class LinkedList_Reverse {
 
     class Node {
 
-        String data;
+        int data;
         Node next;
 
-        Node(String data)
+        Node(int data)
         {
             this.data = data;
             this.next = null;
@@ -17,7 +17,7 @@ public class LinkedList_Reverse {
     }
 
     // add - first, add- last
-    public void addFirst(String data)
+    public void addFirst(int data)
     {
         Node newNode = new Node(data);
         if(head == null)
@@ -33,7 +33,7 @@ public class LinkedList_Reverse {
 
     // add-last
 
-    public void addLast(String data)
+    public void addLast(int data)
     {
         Node newNode = new Node(data);
         if(head == null)
@@ -97,16 +97,12 @@ public class LinkedList_Reverse {
     public static void main(String[] args) {
         
         LinkedListEx1 list = new LinkedListEx1();
-        list.addFirst("1");
-        list.addFirst("2");
+        list.addFirst(1);
+        list.addFirst(2);
+        list.addLast(3);
+        list.addFirst(4);
+
         
-
-        list.addLast("3");
-        
-
-        list.addFirst("4");
-
-        list.reverseIterate();
         list.printList();
         
     }
