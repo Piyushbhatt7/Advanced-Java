@@ -19,6 +19,13 @@ public class LinkedListEx {
             {
                 break;
             }
+
+            if(num < 1 || num > 50)
+            {
+                System.out.println("Please enter a number between 1-50 or exit");
+                continue;
+            }
+            list.add(num);
         }
 
 
