@@ -73,7 +73,7 @@ public class LinkedList_Reverse {
     public void reverseIterate()
     {
 
-        if(head == null)
+        if(head == null || head.next == null)
         {
             return;
         }
