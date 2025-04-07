@@ -111,11 +111,11 @@ public class LinkedList_Reverse {
         
         LinkedList_Reverse list = new LinkedList_Reverse();
         list.addFirst(1);
-        // list.addLast(2);
-        // list.addLast(3);
-        // list.addLast(4); 
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4); 
         list.printList();
-// 13 - 17
+
         list.head = list.rverseResursive(list.head);
         list.printList();
         
