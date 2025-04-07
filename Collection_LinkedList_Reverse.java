@@ -1,4 +1,3 @@
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -16,5 +15,6 @@ public class Collection_LinkedList_Reverse {
         System.out.println("Original List: " + list);
 
         Collections.reverse(list);
+        System.out.println(list);
     }
 }
