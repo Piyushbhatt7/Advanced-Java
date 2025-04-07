@@ -26,5 +26,6 @@ public class Collection_LinkedList_Reverse {
 
         Collections.reverse(list);
         System.out.println(list);
+        sc.close();
     }
 }
