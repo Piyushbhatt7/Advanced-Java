@@ -110,7 +110,7 @@ public class LinkedList_Reverse {
     public static void main(String[] args) {
         
         LinkedList_Reverse list = new LinkedList_Reverse();
-        list.addLast(1);
+        list.addFirst(1);
         // list.addLast(2);
         // list.addLast(3);
         // list.addLast(4); 
