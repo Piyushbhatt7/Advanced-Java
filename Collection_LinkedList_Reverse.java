@@ -13,18 +13,20 @@ public class Collection_LinkedList_Reverse {
         // list.add(4);
         // list.add(5);
 
-        System.out.print("Enter the numbers: ");
+        System.out.println("Enter the numbers: ");
         int n = sc.nextInt();
+
+        System.out.println("Enter " + n + " numbers: ");
         
         for(int i = 0; i < n; i++){
             int value = sc.nextInt();
             list.add(value);
         }
 
-        System.out.print("Original List: " + list);
+        System.out.println("Original List: " + list);
 
         Collections.reverse(list);
-        System.out.print(list);
+        System.out.println(list);
         sc.close();
     }
 }
