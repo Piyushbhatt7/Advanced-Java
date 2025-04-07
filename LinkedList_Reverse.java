@@ -92,6 +92,11 @@ public class LinkedList_Reverse {
         head.next = null;
         head = prevNode;
     }
+
+    public Node rverseResursive(Node head)
+    {
+        
+    }
  
     
     public static void main(String[] args) {
