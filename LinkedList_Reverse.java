@@ -97,7 +97,7 @@ public class LinkedList_Reverse {
     {
         if(head == null || head.next == null)
         {
-            
+            return head;
         }
        Node newHead = rverseResursive(head.next);
        head.next.next = head;
