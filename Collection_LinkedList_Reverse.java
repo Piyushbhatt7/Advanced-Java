@@ -19,6 +19,7 @@ public class Collection_LinkedList_Reverse {
         
         for(int i = 0; i < n; i++){
             int value = sc.nextInt();
+            list.add(value);
         }
 
         System.out.println("Original List: " + list);
