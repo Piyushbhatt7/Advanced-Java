@@ -98,6 +98,8 @@ public class LinkedList_Reverse {
        Node newHead = rverseResursive(head.next);
        head.next.next = head;
        head.next = null;
+
+       return newHead;
     }
  
     
