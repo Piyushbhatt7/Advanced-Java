@@ -116,7 +116,7 @@ public class LinkedList_Reverse {
         list.addLast(4); 
         list.printList();
 // 13 - 17
-        list.rverseResursive(list.Note);
+        list.head = list.rverseResursive(list.Node);
         list.printList();
         
     }
