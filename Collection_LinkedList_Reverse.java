@@ -15,10 +15,10 @@ public class Collection_LinkedList_Reverse {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the numbers: ");
-        //list = sc.nextInt();
-        while(sc.hasNext())
-        {
-            list.add(sc.nextInt());
+        int n = sc.nextInt();
+        
+        for(int i = 0; i < n; i++){
+            int value = sc.nextInt();
         }
 
         System.out.println("Original List: " + list);
