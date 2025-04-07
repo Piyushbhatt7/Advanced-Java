@@ -13,7 +13,7 @@ public class Collection_LinkedList_Reverse {
         // list.add(4);
         // list.add(5);
 
-        System.out.println("Enter the numbers: ");
+        System.out.print("Enter the numbers: ");
         int n = sc.nextInt();
         
         for(int i = 0; i < n; i++){
