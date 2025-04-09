@@ -25,5 +25,13 @@ public class ArrayList_Stack {
             list.remove(list.size()-1);
             return top;
         }
+
+        // peek
+        public static int peek() {
+            if(isEmpty())
+            {
+                return -1;
+            }
+        }
     }
 }
