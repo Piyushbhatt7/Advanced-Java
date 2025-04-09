@@ -11,6 +11,7 @@ public class StackClass {
 
         static class Stack{
              public Node head;
+             public static void push()
         }
     }
 }
