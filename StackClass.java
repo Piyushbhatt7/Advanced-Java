@@ -10,7 +10,7 @@ public class StackClass {
         }
 
         static class Stack{
-             
+             public Node head;
         }
     }
 }
