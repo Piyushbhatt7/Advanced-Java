@@ -28,6 +28,10 @@ public class StackClass {
 
               public static int pop()
               {
+                if(isEmpty())
+                {
+                    return -1;
+                }
                 int top = head.next;
                 head = head.next;
                 return top;
