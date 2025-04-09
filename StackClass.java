@@ -10,6 +10,7 @@ public class StackClass {
             this.data = data;
             next = null;
         }
+    }
 
         static class Stack{
              public static Node head;
@@ -63,5 +64,5 @@ public class StackClass {
             }
     }
 
-    }
+    
 }
