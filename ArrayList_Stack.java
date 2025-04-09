@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class ArrayList_Stack {
     
@@ -18,7 +17,7 @@ public class ArrayList_Stack {
         // pop
         public static int pop()
         {
-            int top = list.get(List.size()-1);
+            int top = list.get(list.size()-1);
             list.remove(list.size()-1);
             return top;
         }
