@@ -5,7 +5,7 @@ public class ArrayList_Stack {
     class Stack {
         ArrayList<Integer> list = new ArrayList<>();
         public boolean isEmpty(){
-            list.size();
+            list.size() == 0;
         }
     }
 }
