@@ -19,6 +19,7 @@ public class ArrayList_Stack {
         public static int pop()
         {
             int top = list.get(List.size()-1);
+            list.remove()
         }
     }
 }
