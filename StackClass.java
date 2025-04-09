@@ -25,6 +25,15 @@ public class StackClass {
                 newNode.next = head;
                 head = newNode;
              }
+
+              public static int pop()
+              {
+                int top = head.next;
+                head = head.next;
+                return top;
+              }
         }
+
+
     }
 }
