@@ -32,6 +32,7 @@ public class ArrayList_Stack {
             {
                 return -1;
             }
+            return list.get(list.size()-1);
         }
     }
 }
