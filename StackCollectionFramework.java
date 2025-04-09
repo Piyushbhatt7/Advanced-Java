@@ -11,6 +11,9 @@ public class StackCollectionFramework {
         stack.push(3);
         stack.push(4);
 
-        while(!stack.isEmpty())
+        while(!stack.isEmpty()){
+            System.out.println(stack.peek());
+            stack.pop();
+        }
     }
 }
