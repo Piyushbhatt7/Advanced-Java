@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class ArrayList_Stack {
     
-    class Stack {
+    static class Stack {
        static ArrayList<Integer> list = new ArrayList<>();
        static public boolean isEmpty(){
           return  list.size() == 0;
