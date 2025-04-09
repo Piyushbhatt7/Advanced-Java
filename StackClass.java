@@ -17,10 +17,7 @@ public class StackClass {
              }
              public static void push(int data)
              {
-                if(head == nill)
-                {
-
-                }
+                if(isEmpty())
              }
         }
     }
