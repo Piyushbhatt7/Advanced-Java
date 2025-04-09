@@ -4,7 +4,7 @@ public class ArrayList_Stack {
     
     class Stack {
        static ArrayList<Integer> list = new ArrayList<>();
-        public boolean isEmpty(){
+       static public boolean isEmpty(){
           return  list.size() == 0;
         }
         
@@ -17,6 +17,10 @@ public class ArrayList_Stack {
         // pop
         public static int pop()
         {
+            if(isEmpty())
+            {
+                return -1;
+            }
             int top = list.get(list.size()-1);
             list.remove(list.size()-1);
             return top;
