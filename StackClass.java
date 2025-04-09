@@ -1,3 +1,6 @@
+
+import com.sun.net.httpserver.Headers;
+
 public class StackClass {
     
     static class Node {
@@ -36,6 +39,15 @@ public class StackClass {
                 head = head.next;
                 return top;
               }
+              public static int peek()
+              {
+                if(isEmpty())
+                {
+                    return -1;
+                }
+                return head.data;
+              }
+             
         }
 
 
