@@ -3,9 +3,11 @@ import java.util.Stack;
 
 public class Stack_Recursion {
     
-    public static void pushAtButtom(int data)
+    public static void pushAtButtom(int data, Stack<Integer> stack)
     {
-
+       int top = stack.pop();
+       pushAtButtom(data, stack);
+       
     }
     public static void main(String[] args) {
         
@@ -13,7 +15,7 @@ public class Stack_Recursion {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        stack.push(4);
+        stack.pushAtButtom(data, stack);
 
         while(!stack.isEmpty())
         {
