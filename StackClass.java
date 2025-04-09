@@ -11,7 +11,13 @@ public class StackClass {
 
         static class Stack{
              public Node head;
-             public static void push()
+             public static void push(int data)
+             {
+                if(head == nill)
+                {
+                    
+                }
+             }
         }
     }
 }
