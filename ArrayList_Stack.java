@@ -4,7 +4,7 @@ import java.util.List;
 public class ArrayList_Stack {
     
     class Stack {
-        ArrayList<Integer> list = new ArrayList<>();
+       static ArrayList<Integer> list = new ArrayList<>();
         public boolean isEmpty(){
           return  list.size() == 0;
         }
@@ -12,7 +12,7 @@ public class ArrayList_Stack {
         // push
         public static void push(int data)
         {
-            List.add(data);
+            list.add(data);
         }
 
         // pop
