@@ -7,5 +7,8 @@ public class ArrayList_Stack {
         public boolean isEmpty(){
           return  list.size() == 0;
         }
+
+        public static push(int data)
+        {}
     }
 }
