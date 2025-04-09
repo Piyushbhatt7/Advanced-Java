@@ -8,5 +8,9 @@ public class StackClass {
             this.data = data;
             next = null;
         }
+
+        static class Stack{
+             
+        }
     }
 }
