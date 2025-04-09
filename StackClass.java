@@ -11,11 +11,15 @@ public class StackClass {
 
         static class Stack{
              public Node head;
+             public static boolean isEmpty()
+             {
+                return head == null;
+             }
              public static void push(int data)
              {
                 if(head == nill)
                 {
-                    
+
                 }
              }
         }
