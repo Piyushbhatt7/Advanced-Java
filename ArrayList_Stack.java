@@ -7,6 +7,7 @@ public class ArrayList_Stack {
        static public boolean isEmpty(){
           return  list.size() == 0;
         }
+    
         
         // push
         public static void push(int data)
@@ -48,4 +49,5 @@ public class ArrayList_Stack {
             s.pop();
         }
     }
+
 }
