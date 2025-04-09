@@ -20,6 +20,7 @@ public class ArrayList_Stack {
         {
             int top = list.get(List.size()-1);
             list.remove(list.size()-1);
+            return top;
         }
     }
 }
