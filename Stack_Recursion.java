@@ -20,7 +20,7 @@ public class Stack_Recursion {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        stack.pushAtButtom(data, stack);
+        Stack_Recursion.pushAtButtom(4, stack);
 
         while(!stack.isEmpty())
         {
