@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayList_Stack {
     
@@ -7,8 +8,14 @@ public class ArrayList_Stack {
         public boolean isEmpty(){
           return  list.size() == 0;
         }
+        
+        // push
+        public static void push(int data)
+        {
+            List.add(data);
+        }
 
-        public static push(int data)
-        {}
+        // pop
+        
     }
 }
