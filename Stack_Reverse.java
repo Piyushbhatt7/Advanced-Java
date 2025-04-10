@@ -13,7 +13,12 @@ public class Stack_Reverse{
        int top = stack.pop();
        pushAtButtom(data, stack);
        stack.push(top);
-       
+
+    }
+
+    public static void reverse(Stack<Integer> stack)
+    {
+        
     }
     public static void main(String[] args) {
         
