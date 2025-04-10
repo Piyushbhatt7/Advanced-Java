@@ -43,6 +43,7 @@ public class QueueP {
             {
                 arr[i] = arr[i+1];
             }
+            rear--;
         }
         
     }
