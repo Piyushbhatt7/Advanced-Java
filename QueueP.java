@@ -55,6 +55,9 @@ public class QueueP {
                 System.out.println("empty queue");
                 return -1;
             }
+            int front = arr[0];
+
+            return front;
         }
         
     }
