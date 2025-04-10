@@ -55,14 +55,26 @@ public class QueueP {
                 System.out.println("empty queue");
                 return -1;
             }
-            int front = arr[0];
+            return arr[0];
 
-            return front;
         }
         
     }
 
     public static void main(String[] args) {
         
+       Queue q = new Queue(5);
+       q.add(1);
+       q.add(2);
+       q.add(3);
+       q.add(4);
+       q.add(5);
+
+       while(!q.isEmpty())
+       {
+        System.out.println(q.peek());
+        q.remove();
+       }
+
     }
 }
