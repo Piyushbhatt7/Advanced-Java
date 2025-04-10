@@ -22,6 +22,7 @@ public class Stack_Reverse{
         {
             return;
         }
+
         int top = stack.pop();
         reverse(stack);
         pushAtButtom(top, stack);
@@ -32,6 +33,8 @@ public class Stack_Reverse{
         stack.push(1);
         stack.push(2);
         stack.push(3);
+
+        reverse(stack);;
        
 
         while(!stack.isEmpty()) 
