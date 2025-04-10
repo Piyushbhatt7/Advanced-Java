@@ -14,7 +14,17 @@ public class QueueP {
         public static boolean isEmpty()
         {
             return rear == -1;
-            
+
+        }
+
+        // add // enqueue
+        public static void add(int data)
+        {
+            if(rear == size-1)
+            {
+                System.out.println("full queue");
+                return;
+            }
         }
         
     }
