@@ -39,7 +39,10 @@ public class QueueP {
             }
 
             int front = arr[0];
-            
+            for(int i = 0;i < rear; i++)
+            {
+                arr[i] = 
+            }
         }
         
     }
