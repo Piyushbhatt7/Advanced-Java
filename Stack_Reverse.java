@@ -20,7 +20,7 @@ public class Stack_Reverse{
     {
         int top = stack.pop();
         reverse(stack);
-
+    pushAtButtom(top, stack);
     }
     public static void main(String[] args) {
         
