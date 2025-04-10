@@ -6,7 +6,7 @@ public class QueueP {
         static int size;
 
         public Queue() {
-            
+            arr = new int[size];
         }
         
     }
