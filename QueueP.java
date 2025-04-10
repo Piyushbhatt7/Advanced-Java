@@ -25,6 +25,18 @@ public class QueueP {
                 System.out.println("full queue");
                 return;
             }
+            rear++;
+            arr[rear] = data;
+        }
+
+        // dequeue
+        public static int remove()
+        {
+            if(isEmpty())
+            {
+                
+                return -1;
+            }
         }
         
     }
