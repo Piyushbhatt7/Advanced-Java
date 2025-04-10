@@ -18,7 +18,9 @@ public class Stack_Reverse{
 
     public static void reverse(Stack<Integer> stack)
     {
-        
+        int top = stack.pop();
+        reverse(stack);
+
     }
     public static void main(String[] args) {
         
