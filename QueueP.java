@@ -11,6 +11,11 @@ public class QueueP {
             this.size = n;
         }
 
+        public static boolean isEmpty()
+        {
+            return rear == -1;
+            
+        }
         
     }
 
