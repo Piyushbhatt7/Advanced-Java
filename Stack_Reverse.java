@@ -34,7 +34,7 @@ public class Stack_Reverse{
         stack.push(2);
         stack.push(3);
 
-        reverse(stack);;
+        reverse(stack);
        
 
         while(!stack.isEmpty()) 
