@@ -7,6 +7,7 @@ public class QueueP {
 
         public Queue() {
             arr = new int[size];
+            this.size = size;
         }
         
     }
