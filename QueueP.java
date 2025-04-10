@@ -5,9 +5,9 @@ public class QueueP {
         static int arr[];
         static int size;
 
-        public Queue() {
-            arr = new int[size];
-            this.size = size;
+        public Queue(int n) {
+            arr = new int[n];
+            this.size = n;
         }
         
     }
