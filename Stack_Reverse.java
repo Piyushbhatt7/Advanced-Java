@@ -18,9 +18,13 @@ public class Stack_Reverse{
 
     public static void reverse(Stack<Integer> stack)
     {
+        if(stack.isEmpty())
+        {
+            return;
+        }
         int top = stack.pop();
         reverse(stack);
-    pushAtButtom(top, stack);
+        pushAtButtom(top, stack);
     }
     public static void main(String[] args) {
         
