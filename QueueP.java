@@ -18,6 +18,8 @@ public class QueueP {
 
         }
 
+        public static boolean isFull()
+
         // add // enqueue // o(1)
         public static void add(int data)
         {
