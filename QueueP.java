@@ -57,8 +57,8 @@ public class QueueP {
            else {
             front = (front+1) % size;
            }
-            rear--;
-            return front;
+            
+            return result;
         }
 
         // peek
