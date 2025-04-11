@@ -5,6 +5,7 @@ public class QueueP {
         static int arr[];
         static int size;
         static int rear = -1;
+        static int front = -1;
 
         public Queue(int n) {
             arr = new int[n];
