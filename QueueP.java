@@ -31,7 +31,7 @@ public class QueueP {
                 System.out.println("full queue");
                 return;
             }
-            rear = (rear+1);
+            rear = (rear+1) % size;
             arr[rear] = data;
         }
 
