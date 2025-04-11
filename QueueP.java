@@ -26,7 +26,7 @@ public class QueueP {
         // add // enqueue // o(1)
         public static void add(int data)
         {
-            if(rear == size-1)
+            if(isFull())
             {
                 System.out.println("full queue");
                 return;
