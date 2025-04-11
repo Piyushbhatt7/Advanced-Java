@@ -20,7 +20,7 @@ public class QueueP {
 
         public static boolean isFull()
         {
-            return (rear+1) % size == font
+            return (rear+1) % size == front;
         }
 
         // add // enqueue // o(1)
