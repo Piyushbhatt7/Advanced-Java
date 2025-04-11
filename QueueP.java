@@ -50,6 +50,9 @@ public class QueueP {
 
             int result = arr[front];
            if(rear == front)
+           {
+            rear = front = -1;
+           }
             rear--;
             return front;
         }
