@@ -55,7 +55,7 @@ public class QueueP {
            }
 
            else {
-            front = front+1 % size;
+            front = (front+1) % size;
            }
             rear--;
             return front;
