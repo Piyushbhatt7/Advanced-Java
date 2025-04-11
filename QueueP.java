@@ -14,7 +14,7 @@ public class QueueP {
 
         public static boolean isEmpty()
         {
-            return rear == -1;
+            return rear == -1 && front == -1;
 
         }
 
