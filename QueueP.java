@@ -60,7 +60,7 @@ public class QueueP {
             
             return result;
         }
-
+ 
         // peek
         public static int peek()  
         { 
