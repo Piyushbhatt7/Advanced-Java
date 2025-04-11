@@ -64,7 +64,7 @@ public class QueueP {
         // peek
         public static int peek()  
         {  
-            if(isEmpty())     
+            if(isEmpty())      
             {
                 System.out.println("empty queue");    
                 return -1;        
