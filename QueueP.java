@@ -69,7 +69,7 @@ public class QueueP {
                 System.out.println("empty queue");
                 return -1;
             }
-            return arr[0];
+            return arr[front];
 
         }
         
