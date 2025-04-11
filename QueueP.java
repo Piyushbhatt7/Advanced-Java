@@ -49,7 +49,7 @@ public class QueueP {
             }
 
             int result = arr[front];
-           if()
+           if(rear == front)
             rear--;
             return front;
         }
