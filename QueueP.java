@@ -20,7 +20,7 @@ public class QueueP {
 
         public static boolean isFull()
         {
-            return (rear+1)
+            return (rear+1) %
         }
 
         // add // enqueue // o(1)
