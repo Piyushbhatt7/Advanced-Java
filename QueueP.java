@@ -62,7 +62,7 @@ public class QueueP {
         }
 
         // peek
-        public static int peek() 
+        public static int peek()  
         {
             if(isEmpty())
             {
