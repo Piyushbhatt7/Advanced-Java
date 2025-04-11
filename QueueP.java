@@ -48,7 +48,7 @@ public class QueueP {
                 return -1;
             }
 
-            int front = arr[0];
+            int result = arr[front];
             for(int i = 0;i < rear; i++)
             {
                 arr[i] = arr[i+1];
