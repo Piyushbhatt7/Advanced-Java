@@ -39,7 +39,7 @@ public class QueueP {
             arr[rear] = data;
         }
 
-        // dequeue // remove // 0(n)
+        // dequeue // remove // 0(1)
         public static int remove()
         {
             if(isEmpty())
