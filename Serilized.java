@@ -1,7 +1,7 @@
 
 import java.io.Serializable;
 
-public class MyClass implements Serializable{
+class MyClass implements Serializable{
     
         String name;
         int age;
