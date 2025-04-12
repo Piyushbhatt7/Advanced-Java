@@ -1,5 +1,6 @@
 
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
@@ -29,9 +30,10 @@ public class Serilized {
         try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename))){
 
             MyClass obj = new MyClass("john", 20);
-            out.write(obj);
+            out.writeObject(obj);
             System.out.println("serilization done");
             
+        } catch (IOException ex) {
         }
     }
 }
