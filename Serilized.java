@@ -23,5 +23,6 @@ public class Serilized {
 
     public static void main(String[] args) {
         
+        String filename = "myclass.ser";
     }
 }
