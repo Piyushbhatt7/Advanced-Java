@@ -13,7 +13,7 @@ public class Stack_Recursion {
        int top = stack.pop();
        pushAtButtom(data, stack);
        stack.push(top);
-    }        
+    }         
     public static void main(String[] args) {
         
         Stack<Integer> stack = new Stack<>();
