@@ -26,6 +26,9 @@ public class Serilized {
     public static void main(String[] args) {
         
         String filename = "myclass.ser";
-        try(ObjectOutputStream out = new ObjectOutputStream(FileOutputStream(filename)))
+        try(ObjectOutputStream out = new ObjectOutputStream(FileOutputStream(filename))){
+
+            
+        }
     }
 }
