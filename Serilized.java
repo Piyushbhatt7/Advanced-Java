@@ -34,6 +34,7 @@ public class Serilized {
             System.out.println("serilization done");
             
         } catch (IOException ex) {
+            System.out.println("file not found ! "+ ex);
         }
     }
 }
