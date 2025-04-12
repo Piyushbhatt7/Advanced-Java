@@ -14,7 +14,7 @@ public class Serilized implements Serializable{
 
         public void display()
         {
-            System.out.println("Name: " + name + " Age: ");
+            System.out.println("Name: " + name + " Age: " + age);
         }
     
 }
