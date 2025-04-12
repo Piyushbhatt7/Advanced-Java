@@ -26,9 +26,11 @@ public class Serilized {
     public static void main(String[] args) {
         
         String filename = "myclass.ser";
-        try(ObjectOutputStream out = new ObjectOutputStream(FileOutputStream(filename))){
+        try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename))){
 
-            Myclass obj = new Myclass();
+            MyClass obj = new MyClass("john", 20);
+            out.write(obj);
+            System.out.println("serilization done");
             
         }
     }
