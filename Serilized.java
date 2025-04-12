@@ -1,4 +1,5 @@
 
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class MyClass implements Serializable{
@@ -24,9 +25,7 @@ public class Serilized {
     public static void main(String[] args) {
         
         String filename = "myclass.ser";
-        try {
-            
-        } catch (Exception e) {
-        }
+        try(ObjectOutputStream out = new OutputStream(filename))
+        {}
     }
 }
