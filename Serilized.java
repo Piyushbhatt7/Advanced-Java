@@ -9,5 +9,9 @@ public class Serilized implements Serializable{
         int age;
 
         public student(String name, int age)
+        {
+            this.name = name;
+            
+        }
     }
 }
