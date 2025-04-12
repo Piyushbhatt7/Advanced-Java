@@ -11,7 +11,7 @@ public class Serilized implements Serializable{
         public student(String name, int age)
         {
             this.name = name;
-            
+            this.age = age;
         }
     }
 }
