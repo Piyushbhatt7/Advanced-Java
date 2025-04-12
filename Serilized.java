@@ -11,5 +11,10 @@ public class Serilized implements Serializable{
             this.name = name;
             this.age = age;
         }
+
+        public void display()
+        {
+            
+        }
     
 }
