@@ -3,7 +3,7 @@ import java.util.Stack;
         public static void pushAtButtom(int data, Stack<Integer> stack)
     {  
         if(stack.isEmpty())   
-        {
+        { 
             stack.push(data);
             return;
         }
