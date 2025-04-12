@@ -31,7 +31,7 @@ public class Serilized {
 
             MyClass obj = new MyClass("john", 20);
             out.writeObject(obj);
-            System.out.println("serilization done");
+            System.out.println("serilization done"); 
             
         } catch (IOException ex) {
             System.out.println("file not found ! "+ ex);
