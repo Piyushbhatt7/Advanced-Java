@@ -22,8 +22,7 @@ public class Stack_Recursion {
         stack.push(3); 
         Stack_Recursion.pushAtButtom(4, stack);
 
-        while(!stack.isEmpty()) 
-        {
+        while(!stack.isEmpty())  {
             System.out.println(stack.peek());
             stack.pop();
         }
