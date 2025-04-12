@@ -16,7 +16,7 @@ import java.util.Stack;
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         stack.push(2);     
-        stack.push(3); 
+        stack.push(3);  
         Stack_Recursion.pushAtButtom(4, stack);
 
         while(!stack.isEmpty())  {
