@@ -13,7 +13,7 @@ public class QueueFramework {
 
         while(!q.isEmpty())
         {
-            System.out.println(q.peek());             
+            System.out.println(q.peek());              
             q.remove(); 
         }
     }
