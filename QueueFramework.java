@@ -9,7 +9,7 @@ public class QueueFramework {
         q.add(3);
         q.add(4);   
         q.add(4);     
-        q.add(5);
+        q.add(5); 
 
         while(!q.isEmpty())
         {
