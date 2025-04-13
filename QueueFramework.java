@@ -10,5 +10,11 @@ public class QueueFramework {
         q.add(4);
         q.add(4);
         q.add(5);
+
+        while(!q.isEmpty())
+        {
+            System.out.println(q.peek());
+            
+        }
     }
 }
