@@ -2,7 +2,7 @@ import java.util.*;
 public class QueueFramework {
 
     static Stack<Integer> s1 = new Stack<>();
-    static Stack<Integer> s2
+    static Stack<Integer> s2 = new Stack<>();
     
     public static void main(String[] args) {
         
