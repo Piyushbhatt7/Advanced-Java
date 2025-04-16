@@ -24,7 +24,7 @@ public class QueueFramework {
             s1.push(s2.pop());
         }
     }
-      
+       
     public static int remove()
     {
         if(isEmpty())
