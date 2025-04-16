@@ -25,6 +25,14 @@ public class QueueFramework {
             s2.push(s2.pop());
         }
     }
+
+    public static int remove()
+    {
+        if(isEmpty())
+        {
+            System.out.println("empty queue");
+        }
+    }
 }
     
     public static void main(String[] args) {
