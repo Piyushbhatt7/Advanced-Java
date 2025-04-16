@@ -38,7 +38,11 @@ public class QueueFramework {
 
     public static int peek()
     {
-        
+        if(isEmpty())
+        {
+            System.out.println("empty queue");
+            
+        }
     }
 }
     
