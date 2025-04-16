@@ -33,7 +33,7 @@ public class QueueFramework {
             System.out.println("empty queue");
             return -1;
         }
-        s1.pop();
+       return s1.pop();
     }
 }
     
