@@ -1,7 +1,7 @@
 import java.util.*;
 public class QueueFramework {
 
-    
+    static Stack<Integer> stack = new Stack<>();
     
     public static void main(String[] args) {
         
