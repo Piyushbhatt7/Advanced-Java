@@ -20,7 +20,7 @@ public class QueueFramework {
 
         s1.push(data);
 
-        if(!s2.isEmpty())
+        while(!s2.isEmpty())
         {
             s2.push(s2.pop());
         }
