@@ -35,6 +35,11 @@ public class QueueFramework {
         }
        return s1.pop();
     }
+
+    public static int peek()
+    {
+        
+    }
 }
     
     public static void main(String[] args) {
