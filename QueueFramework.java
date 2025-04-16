@@ -11,6 +11,10 @@ public class QueueFramework {
     {
        return s1.isEmpty();
     }
+    public static void add(int data)
+    {
+        
+    }
 }
     
     public static void main(String[] args) {
