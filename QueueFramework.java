@@ -1,12 +1,17 @@
 import java.util.*;
 public class QueueFramework {
 
+    static class Queue{
+
+    
     static Stack<Integer> s1 = new Stack<>();
     static Stack<Integer> s2 = new Stack<>();
 
-    public static boolean isEmpty(){
-        
+    public static boolean isEmpty()
+    {
+
     }
+}
     
     public static void main(String[] args) {
         
