@@ -17,7 +17,7 @@ public class QueueFramework {
         {
             s2.push(s1.pop());
         }
- 
+  
         s1.push(data);
 
         while(!s2.isEmpty())
