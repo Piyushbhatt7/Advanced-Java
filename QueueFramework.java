@@ -13,7 +13,10 @@ public class QueueFramework {
     }
     public static void add(int data)
     {
-        
+        if(!s1.isEmpty())
+        {
+            s2.push(s1.pop());
+        }
     }
 }
     
