@@ -41,7 +41,7 @@ public class QueueFramework {
         if(isEmpty())
         {
             System.out.println("empty queue");
-            
+            return -1;
         }
     }
 }
