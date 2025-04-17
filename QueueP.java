@@ -52,7 +52,7 @@ public class QueueP {
            if(rear == front)
            {
             rear = front = -1;
-           }             
+           }                   
 
            else {
             front = (front+1) % size;
