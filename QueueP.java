@@ -46,7 +46,7 @@ public class QueueP {
             {
                 System.out.println("Empty queue");
                 return -1;
-            }
+            } 
 
             int result = arr[front];
            if(rear == front)
