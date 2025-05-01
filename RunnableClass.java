@@ -10,5 +10,7 @@ public class RunnableClass implements Runnable{
         
         RunnableClass rc = new RunnableClass();
         Thread t1 = new Thread(rc);
+
+        t1.start();
     }
 }
