@@ -6,8 +6,8 @@ public class ThreadClass  extends Thread{
     
     public static void main(String[] args) {
         
-        MyThread t1 = new MyThread();
-        
+        ThreadClass t1 = new ThreadClass();
+
     }
 
 }
