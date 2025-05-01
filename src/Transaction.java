@@ -9,6 +9,7 @@ public class Transaction {
         
         try {
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/your_database", "username", "password");
+            conn.setAutoCommit(false);
         } catch (Exception e) {
         }
     }
