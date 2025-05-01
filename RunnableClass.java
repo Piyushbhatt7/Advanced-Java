@@ -6,8 +6,9 @@ public class RunnableClass implements Runnable{
         }
     }
 
-    
     public static void main(String[] args) {
         
+        RunnableClass rc = new RunnableClass();
+        Thread t1 = new Thread(rc);
     }
 }
