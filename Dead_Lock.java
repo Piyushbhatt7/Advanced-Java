@@ -9,7 +9,10 @@ public class Dead_Lock {
             synchronized(lock1){
                 synchronized(lock2)
                 {
-
+                    // Critical section
+                    System.out.println("Thread 1: Holding lock1 and lock2...");
+                    try { Thread.sleep(100); } catch (InterruptedException e) {}
+                    System.out.println("Thread 1: Waiting for lock2...");
                 }
             }
         }
@@ -20,7 +23,9 @@ public class Dead_Lock {
             {
                 synchronized(lock1)
                 {
-                    
+                    System.out.println("Thread 1: Holding lock1 and lock2...");
+                    try { Thread.sleep(100); } catch (InterruptedException e) {}
+                    System.out.println("Thread 1: Waiting for lock2...");
                 }
             }
         }
