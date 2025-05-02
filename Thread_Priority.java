@@ -7,6 +7,8 @@ public class Thread_Priority extends Thread {
         
         t1.setPriority(MAX_PRIORITY);
         t2.setPriority(MIN_PRIORITY);
-        
+
+        System.out.println("Thread t11" + t1.getPriority());
+        System.out.println("Thread t2 " + t2.getPriority());
     }
 }
