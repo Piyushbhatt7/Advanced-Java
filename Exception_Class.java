@@ -8,7 +8,7 @@ public class Exception_Class extends Exception{
 
     @Override
     public String getMessage() {
-        return super.getMessage();
+        return super.getMessage() + "I am get message";
     }
 
     
