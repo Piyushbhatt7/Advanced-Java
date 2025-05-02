@@ -6,12 +6,12 @@ public class Exception_Class extends Exception{
     @Override
     public String toString()
     {
-        return super.toString() + "I am string";
+        return " I am string";
     }
 
     @Override
     public String getMessage() {
-        return super.getMessage() + "I am get message";
+        return " I am get message";
     }
 
     
