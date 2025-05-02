@@ -10,6 +10,7 @@ public class Dead_Lock {
             Thread.sleep(100);
         } 
         catch (Exception e) {
+            System.out.println(e);
         }
     }
   }
