@@ -1,1 +1,4 @@
-public class Thread_Priority
+public class Thread_Priority extends Thread {
+
+    
+}
