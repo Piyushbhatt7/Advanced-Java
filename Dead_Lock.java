@@ -18,6 +18,19 @@ public class Dead_Lock {
     }
   }
 
+  public void method2()
+  {
+    synchronized(lock2)
+    {
+        System.out.println("Thread 2 holding");
+    }
+
+    synchronized(lock1)
+    {
+        System.out.println("Thread 2 running");
+    }
+  }
+
     public static void main(String[] args) {
         Dead_Lock deadlock = new Dead_Lock();
 
