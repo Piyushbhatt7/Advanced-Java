@@ -4,7 +4,13 @@ public class Dead_Lock {
   private static final Object lock2 = new Object();
 
   public void method1(){
-    
+    synchronized(lock1){
+        System.out.println("Thread 1 holding lock1..");
+        try {
+            
+        } catch (Exception e) {
+        }
+    }
   }
 
     public static void main(String[] args) {
