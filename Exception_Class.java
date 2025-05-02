@@ -15,5 +15,9 @@ public class Exception_Class extends Exception{
     
     public static void main(String[] args) {
         
+        int a = 8;
+        if(a<99){
+            throw new Exception_Class();
+        }
     }
 }
