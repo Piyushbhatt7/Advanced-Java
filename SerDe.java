@@ -31,6 +31,7 @@ public class SerDe {
         {
             Student obj = new Student("Piyush", 10000000);
             out.writeObject(obj);
+            System.out.println("Serilization done...");
         }
     }
 
