@@ -12,6 +12,9 @@ public class Dead_Lock {
         catch (Exception e) {
             System.out.println(e);
         }
+        synchronized(lock2){
+            System.out.println("Thread 2 is running");
+        }
     }
   }
 
