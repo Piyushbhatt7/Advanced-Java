@@ -10,7 +10,11 @@ class Student implements Serializable {
         this.name = name;
         this.age = age;
     }
-
+    
+    public void display()
+    {
+        System.out.println("Nmae = " + name + " Age = " + age);
+    }
     
 }
 
