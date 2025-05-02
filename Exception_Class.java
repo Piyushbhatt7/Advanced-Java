@@ -18,8 +18,9 @@ public class Exception_Class extends Exception{
     
     public static void main(String[] args) {
         
-        int a = 8;
+        int a;
         Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
         if(a<99){
             throw new Exception_Class();
         }
