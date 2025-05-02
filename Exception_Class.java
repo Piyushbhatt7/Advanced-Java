@@ -24,7 +24,9 @@ public class Exception_Class extends Exception{
         if(a<99){
             try {
                 throw new Exception_Class();
-            } catch (Exception_Class ex) {
+            } 
+            catch (Exception ex) {
+                System.out.println(ex.getMessage());
             }
         }
     }
