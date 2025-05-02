@@ -7,7 +7,7 @@ public class Dead_Lock {
     synchronized(lock1){
         System.out.println("Thread 1 holding lock1..");
         try {
-            Thread.sleep(500);
+            Thread.sleep(1000);
         } 
         catch (Exception e) {
             System.out.println(e);
