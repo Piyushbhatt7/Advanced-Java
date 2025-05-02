@@ -3,6 +3,10 @@ public class Dead_Lock {
   private static final Object lock1 = new Object();
   private static final Object lock2 = new Object();
 
+  public void method1(){
+    
+  }
+
     public static void main(String[] args) {
         Dead_Lock deadlock = new Dead_Lock();
 
