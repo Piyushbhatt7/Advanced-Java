@@ -22,7 +22,10 @@ public class Exception_Class extends Exception{
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
         if(a<99){
-            throw new Exception_Class();
+            try {
+                throw new Exception_Class();
+            } catch (Exception_Class ex) {
+            }
         }
     }
 }
