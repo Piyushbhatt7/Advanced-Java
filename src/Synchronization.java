@@ -33,9 +33,9 @@ public class Synchronization {
         Thread t2 = new Thread(y);
 
         t1.setName("T1 ");  
-        t2.setName("T2 ");                           
+        t2.setName("T2 ");                            
       
-        t1.start(); 
+        t1.start();  
         t2.start();    
           
     }
