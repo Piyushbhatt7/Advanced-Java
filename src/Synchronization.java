@@ -34,7 +34,7 @@ public class Synchronization {
 
         t1.setName("T1 ");
         t2.setName("T2 "); 
-  
+    
         t1.start(); 
         t2.start();    
         
